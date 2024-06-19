@@ -1,56 +1,33 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-header {
-    text-align: center;
-    padding: 2em;
-    background-color: #333;
-    color: #fff;
-}
-
-header img {
-    width: 150px;
-    border-radius: 50%;
-    background-size:contain;
-}
-
-section {
-    padding: 2em;
-    margin: 1em 0;
-}
-
-#contact {
+.converter-container {
     background-color: #fff;
-    border: 1px solid #ddd;
+    padding: 20px;
     border-radius: 8px;
-    padding: 1em;
-}
-
-#projects {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1em;
-}
-
-.project {
-    border-bottom: 1px solid #ddd;
-    padding: 1em 0;
-}
-
-.project:last-child {
-    border-bottom: none;
-}
-
-footer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 1em;
-    background-color: #333;
-    color: #fff;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
